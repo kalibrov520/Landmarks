@@ -15,3 +15,9 @@ struct LandmarksApp: App {
         }
     }
 }
+
+struct LandmarksApp_Previews: PreviewProvider {
+    static var previews: some View {
+        Text("Hello, Ilya!")
+    }
+}
