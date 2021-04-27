@@ -15,7 +15,6 @@ struct FavoriteButton: View {
             Image(systemName: isSet ? "star.fill" : "star")
                 .foregroundColor(isSet ? .yellow : .gray)
         }
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
